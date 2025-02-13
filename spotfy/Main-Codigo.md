@@ -142,7 +142,7 @@ const Main = () => {
                         alt="Imagem do artista"
                     />
 
-                    <FontAwesomeIcon className="single-item__bottom" icon={faCirclePlay} />
+                    <FontAwesomeIcon className="single-item__icon" icon={faCirclePlay} />
 
 
                     <div className="single-item__texts">
@@ -158,7 +158,7 @@ const Main = () => {
                         alt="Imagem do artista"
                     />
 
-                    <FontAwesomeIcon className="single-item__bottom" icon={faCirclePlay} />
+                    <FontAwesomeIcon className="single-item__icon" icon={faCirclePlay} />
 
 
                     <div className="single-item__texts">
@@ -174,7 +174,7 @@ const Main = () => {
                         alt="Imagem do artista"
                     />
 
-                    <FontAwesomeIcon className="single-item__bottom" icon={faCirclePlay} />
+                    <FontAwesomeIcon className="single-item__icon" icon={faCirclePlay} />
 
 
                     <div className="single-item__texts">
@@ -190,7 +190,7 @@ const Main = () => {
                         alt="Imagem do artista"
                     />
 
-                    <FontAwesomeIcon className="single-item__bottom" icon={faCirclePlay} />
+                    <FontAwesomeIcon className="single-item__icon" icon={faCirclePlay} />
 
 
                     <div className="single-item__texts">
@@ -206,7 +206,7 @@ const Main = () => {
                         alt="Imagem do artista"
                     />
 
-                    <FontAwesomeIcon className="single-item__bottom" icon={faCirclePlay} />
+                    <FontAwesomeIcon className="single-item__icon" icon={faCirclePlay} />
 
 
                     <div className="single-item__texts">
@@ -222,7 +222,7 @@ const Main = () => {
                         alt="Imagem do artista"
                     />
 
-                    <FontAwesomeIcon className="single-item__bottom" icon={faCirclePlay} />
+                    <FontAwesomeIcon className="single-item__icon" icon={faCirclePlay} />
 
 
                     <div className="single-item__texts">
@@ -238,7 +238,7 @@ const Main = () => {
                         alt="Imagem do artista"
                     />
 
-                    <FontAwesomeIcon className="single-item__bottom" icon={faCirclePlay} />
+                    <FontAwesomeIcon className="single-item__icon" icon={faCirclePlay} />
 
 
                     <div className="single-item__texts">
@@ -253,7 +253,7 @@ const Main = () => {
                         alt="Imagem do artista"
                     />
 
-                    <FontAwesomeIcon className="single-item__bottom" icon={faCirclePlay} />
+                    <FontAwesomeIcon className="single-item__icon" icon={faCirclePlay} />
 
 
                     <div className="single-item__texts">
@@ -268,7 +268,7 @@ const Main = () => {
                         alt="Imagem do artista"
                     />
 
-                    <FontAwesomeIcon className="single-item__bottom" icon={faCirclePlay} />
+                    <FontAwesomeIcon className="single-item__icon" icon={faCirclePlay} />
 
 
                     <div className="single-item__texts">
@@ -283,7 +283,7 @@ const Main = () => {
                         alt="Imagem do artista"
                     />
 
-                    <FontAwesomeIcon className="single-item__bottom" icon={faCirclePlay} />
+                    <FontAwesomeIcon className="single-item__icon" icon={faCirclePlay} />
 
 
                     <div className="single-item__texts">
@@ -298,7 +298,7 @@ const Main = () => {
                         alt="Imagem do artista"
                     />
 
-                    <FontAwesomeIcon className="single-item__bottom" icon={faCirclePlay} />
+                    <FontAwesomeIcon className="single-item__icon" icon={faCirclePlay} />
 
 
                     <div className="single-item__texts">
