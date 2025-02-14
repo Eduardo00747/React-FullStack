@@ -498,3 +498,17 @@ img {
     grid-column: 1 / span 2;
   }
 }
+
+____________________________________________________
+.single-item__bottom{
+    position: absolute;
+    font-size: 50px;    
+    right: 43px;
+    bottom: 149px;
+    color: #10be50;
+    opacity: 0;
+    transform: translateY(100%);
+    transition-timing-function: ease;
+    transition-duration: 0.2s;
+    transition-property: opacity, transform;
+}

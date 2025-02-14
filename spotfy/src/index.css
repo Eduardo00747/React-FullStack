@@ -102,7 +102,7 @@ a {
 .single-item__icon{
     position: absolute;
     font-size: 50px;    
-    right: 65px;
+    right: 45px;
     bottom: 135px;
     color: #10be50;
     opacity: 0;
@@ -139,4 +139,3 @@ a {
 .single-item__type{
     font-size: 13px;
 }
-
