@@ -2,7 +2,7 @@ import React from "react";
 import SingleItem from "./SingleItem";
 import { artistArray } from "../assets/database/artists";
 import { songsArray } from "../assets/database/songs";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const ItemList = ({ title, range, path, idPath }) => {
     let items = [];
@@ -15,19 +15,35 @@ const ItemList = ({ title, range, path, idPath }) => {
         items = songsArray.filter((song) => song.id >= range[0] && song.id <= range[1]);
     }
 
+    const {pathname} = useLocation()
+
+    const isHome = pathname ==="/"
+
+    const finalItems = isHome 
+    ? items 
+    : title === "Artistas" 
+        ? artistArray // Mostra todos os artistas se estiver na página Artists
+        : songsArray; // Mostra todas as músicas se estiver na página Songs
+
+
     return (
         <div className="itemlist">
             {title && (
                 <div className="main__texts">
                     <h2>{title} Populares</h2>
-                    <Link to = {path} className="main__link">Mostra Tudo</Link>
+
+                    {isHome ? 
+                        <Link to = {path} className="main__link">
+                            Mostra Tudo
+                        </Link>
+                    :<></>}
                 </div>
             )}
             <div className="item-list__container">
-                {items.map((item) => (
+                {finalItems.map((item) => (
                     <SingleItem
                         idPath={idPath}
-                        id={item.id} 
+                        id={item.id}
                         key={item.id}
                         image={item.image}
                         name={item.name}
